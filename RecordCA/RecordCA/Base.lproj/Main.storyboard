@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RecordCA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d3S-h7-UKk">
+                                <rect key="frame" x="87" y="243.5" width="200" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="6ca-tm-DU7"/>
+                                    <constraint firstAttribute="width" constant="200" id="YVE-GD-PKQ"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zJC-wE-Vzf">
+                                <rect key="frame" x="0.0" y="472" width="94" height="80"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="qo1-fM-upV"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4lc-AR-3mA">
+                                <rect key="frame" x="94" y="472" width="94" height="80"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dBi-nG-hgR">
+                                <rect key="frame" x="282" y="472" width="94" height="80"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0MI-IV-gn8">
+                                <rect key="frame" x="188" y="472" width="94" height="80"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zJC-wE-Vzf" firstAttribute="top" secondItem="d3S-h7-UKk" secondAttribute="bottom" constant="28.5" id="4WS-Kb-aXN"/>
+                            <constraint firstItem="4lc-AR-3mA" firstAttribute="height" secondItem="zJC-wE-Vzf" secondAttribute="height" id="CSS-dH-boy"/>
+                            <constraint firstItem="4lc-AR-3mA" firstAttribute="width" secondItem="zJC-wE-Vzf" secondAttribute="width" id="RXi-8F-9pX"/>
+                            <constraint firstItem="dBi-nG-hgR" firstAttribute="width" secondItem="0MI-IV-gn8" secondAttribute="width" id="S5H-8h-trj"/>
+                            <constraint firstItem="dBi-nG-hgR" firstAttribute="height" secondItem="0MI-IV-gn8" secondAttribute="height" id="SuJ-1y-6MP"/>
+                            <constraint firstItem="d3S-h7-UKk" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="WR3-CN-8dT"/>
+                            <constraint firstItem="0MI-IV-gn8" firstAttribute="leading" secondItem="4lc-AR-3mA" secondAttribute="trailing" id="Yqz-Kw-oMT"/>
+                            <constraint firstItem="dBi-nG-hgR" firstAttribute="top" secondItem="0MI-IV-gn8" secondAttribute="top" id="Yy5-7X-1q2"/>
+                            <constraint firstItem="d3S-h7-UKk" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="aag-lG-ykn"/>
+                            <constraint firstItem="zJC-wE-Vzf" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:4" id="cWd-mp-ck0"/>
+                            <constraint firstItem="dBi-nG-hgR" firstAttribute="leading" secondItem="0MI-IV-gn8" secondAttribute="trailing" id="ere-6G-oIV"/>
+                            <constraint firstItem="4lc-AR-3mA" firstAttribute="leading" secondItem="zJC-wE-Vzf" secondAttribute="trailing" id="nPJ-xC-peF"/>
+                            <constraint firstItem="0MI-IV-gn8" firstAttribute="width" secondItem="4lc-AR-3mA" secondAttribute="width" id="rQE-gj-tTz"/>
+                            <constraint firstItem="0MI-IV-gn8" firstAttribute="height" secondItem="4lc-AR-3mA" secondAttribute="height" id="shW-VC-HnM"/>
+                            <constraint firstItem="4lc-AR-3mA" firstAttribute="top" secondItem="zJC-wE-Vzf" secondAttribute="top" id="uqg-gh-mxP"/>
+                            <constraint firstItem="0MI-IV-gn8" firstAttribute="top" secondItem="4lc-AR-3mA" secondAttribute="top" id="xPJ-VR-ksF"/>
+                            <constraint firstItem="zJC-wE-Vzf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xm6-y4-EX3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="firstView" destination="zJC-wE-Vzf" id="xlw-U7-gvg"/>
+                        <outlet property="fourthView" destination="dBi-nG-hgR" id="uTX-nU-QwJ"/>
+                        <outlet property="layerView" destination="d3S-h7-UKk" id="4N0-Su-K1V"/>
+                        <outlet property="secondView" destination="4lc-AR-3mA" id="jgK-7O-jHc"/>
+                        <outlet property="thirdView" destination="0MI-IV-gn8" id="Avu-Lp-k20"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
